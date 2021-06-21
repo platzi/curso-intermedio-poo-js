@@ -13,4 +13,7 @@ const juan = {
 // console.log(Object.getOwnPropertyNames(juan));
 // console.log(Object.entries(juan));
 
+// Object.seal(juan);
+Object.freeze(juan);
+
 console.log(Object.getOwnPropertyDescriptors(juan));
